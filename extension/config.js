@@ -1,5 +1,5 @@
 const $$ = document.querySelectorAll.bind(document);
-const app_selectors = {
+window.app_selectors = {
     title: function() {
         return $$('label[aria-label="Title"]');
     },
